@@ -1,0 +1,88 @@
+.primeiro{
+    background: rgba(155, 75, 75, 0.986);
+    border: 10px solid rgb(71, 18, 18);
+    height: 60mm;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.segundo{
+    background-color: white;
+    border: 10px solid rgb(47, 0, 109);
+    color: rgb(43, 43, 255);
+    width: 80%;
+    font-family: arial;
+    font-weight: bold;
+    margin: 27px 12px;
+}
+
+.conteudo{
+    position: relative;
+    left: 25%;
+    right: 35%;
+    top: 40%;
+}
+
+.terceiro {
+    height: 24mm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.quarto{
+    background: blue;
+    height: 6mm;
+    width: 800px;
+}
+
+.quinto{
+    background: purple;
+    height: 6mm;
+    width: 450px;
+}
+
+.sexto{
+    background: green;
+    height: 6mm;
+    width: 700px;
+}
+
+.setimo{
+    background: yellow;
+    height: 6mm;
+    width: 600px;
+}
+
+.oitavo{
+    margin-top: 5%;
+    background: red;
+    float: left;
+    height: 6mm;
+    width: 40%;
+}
+
+.nono{
+    float: left;
+    margin-top: 5%;
+    background: #007c83;
+    height: 6mm;
+    width: 20%;
+}
+
+.decimo{
+    float: right;
+    margin-top: 5%;
+    background: rgb(0, 199, 0);
+    height: 6mm;
+    width: 40%;
+}
+/* background: white;
+border: 10px solid blue;
+width: 80%; */
+/* background: rgba(155, 75, 75, 0.986);
+border: 10px solid rgb(71, 18, 18);
+width: 80%;
+height: 60mm; */

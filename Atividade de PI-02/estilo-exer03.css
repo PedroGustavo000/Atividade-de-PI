@@ -1,0 +1,34 @@
+body{
+    background: #D3D3D3;   
+}
+
+.primeiro{
+    background: white;
+    height: 500px;
+    width: 50%;
+    border: 10px dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.segundo{
+    background: yellow;
+    height: 10px;
+    width: 30%;
+}
+
+.terceiro{
+    background: rgb(255, 69, 0);
+    height: 100px;
+    width: 30%;
+}
+
+.quarto{
+    background: rgb(0, 128, 0);
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}

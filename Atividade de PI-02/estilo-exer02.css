@@ -1,0 +1,20 @@
+.primeiro{
+    background: rgb(200, 162, 200);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.segundo{
+    background: #ffc0cb;
+    height: 100%;
+    width: 250px;
+    border: 20px solid red;
+}
+
+.terceiro{
+    background: #03bb85;
+    height: 88%;
+    width: 30%;
+}
