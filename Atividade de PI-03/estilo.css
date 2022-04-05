@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background: black;
+    font-family: monospace;
+}
+
+.header{
+    border-bottom: 3px solid aqua;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+#aqui{
+    font-weight: 800;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.titulo {
+    color: aqua;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
+
+/* Fim do Cabeçalho
+
+Começo do Banner */
+
+.banner{
+    background-image: url("bg-jelly-fish-para-home.png");
+    height:700px;
+    color: white;
+    display: flex;
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container{
+    font-size: 36px;
+    justify-content: center;
+}
+
+.banner .container p{
+    width: 10%;
+}
+
+/* Fim do Banner
+
+Começo do Social */
+
+.social{
+    background-color: beige;
+    display: flex;
+}
+
+.box img{
+    width: 170px;
+}
+
+.social .container .boxes{
+    display: flex;
+}
+
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    background-color: aqua;
+    height: 150px;
+    display: flex;
+    font-size: 15px;
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+.banner .container .card{
+    color: palevioletred;
+    background: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.card h1{
+    font-size: 30px;
+}
+
+.card h4{
+    font-size: 16px;
+}
+
+.card input{
+    border: palevioletred solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card button{
+    height: 50px;
+    width: 100px;
+    background: palevioletred;
+    margin-top: 25px;
+    font-size: 18px;
+    color: white;
+    font: 700 20px monospace;
+    border: 0; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cadastro{
+    color: palevioletred;
+    background: white;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cadastro h1{
+    font-size: 30px;
+}
+
+.cadastro h4{
+    font-size: 16px;
+}
+
+.cadastro input{
+    border: palevioletred solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cadastro button{
+    height: 50px;
+    width: 100px;
+    background: palevioletred;
+    margin-top: 25px;
+    font-size: 18px;
+    color: white;
+    font: 700 20px monospace;
+    border: 0; 
+    border-radius: 4px;
+    cursor: pointer;
+}
